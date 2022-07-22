@@ -1,12 +1,15 @@
 # napSeeker
+
 napSeeker: A computational software for identifying non-capped RNA from NAP-seq data.
 
 Overview:
 ---------
+
 napSeeker is a software to identify non-capped RNA by judging the position of special adapters and calculating the coverage of the candidate non-capped RNA from NAP-seq data. 
 
 Usage:
 ---------
+
 Usage:  ncapSeeker [options] --fa <genome seq> --fai <fai file> --input <BAM alignments><BR>
 ncapSeeker: for discovering novel napRNAs from NAP-seq data<BR>
 [options]<BR>
@@ -34,6 +37,8 @@ ncapSeeker: for discovering novel napRNAs from NAP-seq data<BR>
 
 Installation:<BR>
 ---------
+
+Typical install time: within 5 min.
 Download napSeeker-1.0.tar.gz from https://github.com/junhong-huang/napSeeker/releases ; unpack it, and make:<BR>
 tar -xzvf napSeeker-1.0.tar.gz<BR>
 cd napSeeker-1.0<BR>
@@ -41,6 +46,7 @@ make<BR>
 
 System requirements:
 ---------
+
 Operating system: napSeeker is designed to run on POSIX-compatible platforms, including UNIX, Linux and Mac OS/X. We have tested  most extensively on Linux and MacOS/X because these are the machines we develop on.<BR>
 Compiler: The source code is compiled with  the C++ compiler g++. We test the code using the g++ compilers.<BR>
 Libraries and other installation requirements: napSeeker includes other software libraries: BamTools, cdflib, alglibsrc, RNAfoldLib, and RNAshapesLib library package. All will automatically compile during napSeeker installation process.<BR>
@@ -48,6 +54,7 @@ By default, napSeeker does not require any additional libraries to be installed 
 
 Prerequisites:<BR>
 ---------
+
 Dependencies: The input of napSeeker is BAM file. So you need the read mapper STAR or other mappers<BR>
 You can get the most fresh versions:<BR>
 (1)  STAR: https://github.com/alexdobin/STAR<BR>
@@ -67,10 +74,12 @@ samtools faidx hg38.fa<BR>
 
 run napSeeker:
 ---------
+
 napSeeker --fa hg38.fa --fai hg38.fa.fai --input NAP-seq.bam \> napSeeker_candidate_napRNAs.txt<BR>
 
 Output:
 ---------
+
 #chrom	start	end	name	score	strand	contigLen	clusterLen	readNum	startReadNum	endReadNum	startPvalue	endPvalue	startFold	endFold	upFold	downFold	up20ntFold	down20ntFold	clusterSeq	cdScore	structure	shape	mfe<BR>
 chr8	123434450	123434610	ncapSeeker_chr8_123434450_123434610	48763	+	160	4070	48762.50758	22038.50758	26724	-160427	-198624	117.5569	162.15689	272.25286	125.3105	37.45919	16.31894	ACCCCATCTCTACTAAAAATACAAAAATTAGCTGGGTGTGGTGGCGCGCCTGTAATCCCAGCTACTCGGGAGGCTGAGGTGGGAAAATCACTCGAACCCCGGAGGTGGAGGTTGCAGTGAGCTGGGATTGTGCCACTGTGCTCCAGCCTGGGTGACAGAG	0	..............................((((((((((((((((((......((((((((..(((((....))))).........(((((..(((((((....))).))))..)))))))))))))))))))))))))).)))))(((.....)))..	[[][]][]	-60.4<BR>
 
@@ -78,10 +87,12 @@ Note: # is comment line<BR>
 
 Acknowledgements:
 ---------
+
 Thanks a lot to everyone who contributed to the public code (e.g. BamTools, Samtools) used by napSeeker.<BR>
 
 Contact :
 ---------
+
 *****************************************************************************************<BR>
  \*	napSeeker - A computational software for identifying non-capped RNA from NAP-seq data.<BR>
  \*<BR>
