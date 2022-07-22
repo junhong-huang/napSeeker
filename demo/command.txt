@@ -1,0 +1,1 @@
+napSeeker -t 5 -c 2 -F 2 -e 5 -s --norm --pair --fa hg38.chrY.fa --fai hg38.chrY.fa.fai --input HepG2_napSeq_rep1.chrY.bam > ./results/HepG2_napSeq_rep1.chrY.napSeeker
