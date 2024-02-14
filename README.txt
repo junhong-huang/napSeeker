@@ -38,11 +38,10 @@ ncapSeeker: for discovering novel napRNAs from NAP-seq data<BR>
 Installation:<BR>
 ---------
 
-Typical install time: within 5 min.<BR>
-Download napSeeker-1.0.tar.gz from https://github.com/junhong-huang/napSeeker/releases ; unpack it, and make:<BR>
-tar -xzvf napSeeker-1.0.tar.gz<BR>
-cd napSeeker-1.0<BR>
-make<BR>
+Typical install time: within 5 min.
+Download napSeeker from https://github.com/junhong-huang/napSeeker
+cd napSeeker-main
+make
 
 System requirements:
 ---------
