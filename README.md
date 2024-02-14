@@ -39,7 +39,7 @@ Installation:<BR>
 ---------
 
 Typical install time: within 5 min.<BR>
-Download napSeeke from https://github.com/junhong-huang/napSeeker <BR>
+Download napSeeker from https://github.com/junhong-huang/napSeeker <BR>
 cd napSeeker-main<BR>
 make<BR>
 
