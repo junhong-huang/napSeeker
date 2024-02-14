@@ -39,9 +39,8 @@ Installation:<BR>
 ---------
 
 Typical install time: within 5 min.<BR>
-Download napSeeker-1.0.tar.gz from https://github.com/junhong-huang/napSeeker/releases ; unpack it, and make:<BR>
-tar -xzvf napSeeker-1.0.tar.gz<BR>
-cd napSeeker-1.0<BR>
+Download napSeeke from https://github.com/junhong-huang/napSeeker <BR>
+cd napSeeker-main<BR>
 make<BR>
 
 System requirements:
