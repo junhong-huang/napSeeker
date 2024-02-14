@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10657490.svg)](https://doi.org/10.5281/zenodo.10657490)
 
 napSeeker: A computational software for identifying non-capped RNA from NAP-seq data.<BR>
-How to cite: Junhong Huang, NAP-seq reveals novel classes of structured noncoding RNAs with regulatory functions, napSeeker: v1.0.0, DOI: 10.5281/zenodo.10657483, 2024
+How to cite: Junhong Huang, NAP-seq reveals novel classes of structured noncoding RNAs with regulatory functions, junhong-huang/napSeeker: v1.0.0, DOI: 10.5281/zenodo.10657483, 2024
 
 Overview:
 ---------
